@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://admin1234:admin1234@cluster0-5nrx9.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "",
+    "password": "admin1234",
+    "name": "mongo",
+    "user": "admin1234",
+    "connector": "mongodb"
+  }
+}

@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+    <div *ngIf="_user.loggedIn">
+        <ion-buttons end>
+            <button ion-button (click)= "_user.onLogOut()">Log Out</button>
+          </ion-buttons>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+</ion-content>

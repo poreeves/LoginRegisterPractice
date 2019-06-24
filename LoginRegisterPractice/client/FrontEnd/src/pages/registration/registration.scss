@@ -1,0 +1,18 @@
+page-registration {
+    .scroll-content{
+        background: url("https://images.pexels.com/photos/2260840/pexels-photo-2260840.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed; 
+        background-size: cover;
+    }
+    .regWrap{
+        height:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .regForm{
+        background-color: transparent;
+        border-left: 2px solid;
+        border-bottom: 2px solid;
+        border-color: black;
+    }
+}
